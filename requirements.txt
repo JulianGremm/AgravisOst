@@ -1,1 +1,2 @@
 streamlit
+frequenz-client-reporting == 0.7.0
