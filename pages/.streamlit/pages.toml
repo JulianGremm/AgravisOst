@@ -1,9 +1,9 @@
 [[pages]]
-path = "pages/page_1.py"
+path = "page_1.py"
 name = "st-pages"
 icon = "📄"
 
 [[pages]]
-path = "pages/page_2.py"
+path = "page_2.py"
 name = "Example Two"
 icon = "📄"
