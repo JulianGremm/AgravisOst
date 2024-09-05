@@ -1,1 +1,0 @@
-ln -s pages/.streamlit/pages.toml .streamlit/pages.toml

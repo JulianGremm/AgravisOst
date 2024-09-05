@@ -6,7 +6,7 @@ st.set_page_config(layout="wide")
 sections = st.sidebar.toggle("Sections", value=True, key="use_sections")
 
 nav = get_nav_from_toml(
-    ".streamlit/pages.toml"
+    "pages/.streamlit/pages.toml"
 )
 
 st.logo("logo.png")
