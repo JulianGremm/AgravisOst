@@ -9,8 +9,8 @@ from frequenz.client.reporting import ReportingApiClient
 
 # Ensure that environment variables are set
 try:
-    service_address = os.environ.get('SCHNITTSTELLE')
-    api_key = os.environ.get('API_KEY')
+    service_address = st.secrets["SCHNITTSTELLE"]
+    api_key = st.secrets["API_KEY"]
 except KeyError as e:
     raise KeyError(f"Missing environment variable: {e}")
 
