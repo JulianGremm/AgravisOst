@@ -1,0 +1,9 @@
+[[pages]]
+path = "page_1.py"
+name = "st-pages"
+icon = "📄"
+
+[[pages]]
+path = "page_2.py"
+name = "Example Two"
+icon = "📄"
