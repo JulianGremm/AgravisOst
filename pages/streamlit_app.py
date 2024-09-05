@@ -15,5 +15,4 @@ pg = st.navigation(nav)
 
 add_page_title(pg)
 
-while(1):
-    pg.run()
+pg.run()
