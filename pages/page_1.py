@@ -13,7 +13,7 @@ try:
     api_key = os.environ.get('API_KEY')
 except KeyError as e:
     raise KeyError(f"Missing environment variable: {e}")
-st.write(api_key)
-#client = ReportingApiClient(service_address=service_address, key=api_key)
+
+client = ReportingApiClient(service_address=service_address, key=api_key)
 
 #st.write("This is just a sample page!")
