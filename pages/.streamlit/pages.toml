@@ -1,7 +1,7 @@
 [[pages]]
 path = "page_1.py"
-name = "st-pages"
-icon = "📄"
+name = "Dashboard"
+icon = "clipboard"
 
 [[pages]]
 path = "page_2.py"
